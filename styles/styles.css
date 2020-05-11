@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+}
+
+a img {
+    width: 50px;
+}
+
+/* input{
+
+    top: 3px;
+    left: 24px;
+    width: 200px;
+} */
+
+#text1{
+    width: 150px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+#search {
+    position: absolute;
+    width: 30px;
+}
+
+
+h1{
+    margin-top: 20px ;
+    margin-left: 300px;
+}
+/* text{
+    margin-top: 50px ;
+    margin-left: 300px;
+} */
+footer{
+    font-size: 20px;
+    width: 50px;
+}
+
+.mystyle{
+    color: blueviolet;
+    float: center;
+
+}
+.special{
+    color: pink;
+
+}
