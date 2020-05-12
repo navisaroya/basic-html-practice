@@ -8,45 +8,40 @@
     <title>HTML CSS DEMO</title>
   </head>
   <body>
-    <div id="main-body">
-      <header>
-        <div id="title">My Webpage</div>
-        <div style="display: flex; width: 100%;">
-          <div style="width: 20%; margin-top: 1%;">
-            <img src="./img/left.png" alt="back" style="width: 18%;">
-            <img src="./img/right.png" alt="back" style="width: 18%;">
-            <img src="./img/cancel.png" alt="back" style="width: 18%;">
-            <img src="./img/house.png" alt="back" style="width: 18%;">
-          </div>
-          <div style="display: flex; margin-top: 1%; margin-right: 2%; width: 80%;">
-            <input style="width: 75%; height: 50%;" type="text" id="urlInput">
-            <div style="position: relative; width: 20%; ">
-              <input style="position: absolute; width: 100%; height: 50%;" type="text" id="searchInput">
-              <img style="position: absolute; width: 10%; padding-left: 4%;" src="./img/searchIcon.png" alt="search">
-            </div>
+     <div id="main-body">
+       <header>
+         <div id="title">My Webpage</div>
+         <div id="allFields">
+           <div id="buttons">
+            <img src="./img/left.png" alt="back">
+            <img src="./img/right.png" alt="back">
+            <img src="./img/cancel.png" alt="back">
+            <img src="./img/house.png" alt="back">
+           </div>
+           <div id="fields">
+              <input type="text">
+              <div id="searchInput">
+                <input type="text">
+                <img src="./img/searchIcon.png" alt="">
+              </div>
+           </div>
+         </div>
+       </header>
+       <section>
+
+        <div id="contact">
+          <div>
+            Galvanize Contact Information
+            <ul>
+              <li>Zubair: zubair.desair@galvanize.com</li>
+              <li>Elie: elie@galvanize.com</li>
+              <li>Matt: matt@galvanize.com</li>
+            </ul>
           </div>
         </div>
-        
-        
-        <!-- <ul class="main-nav">
-          <li><a href="#">HOME</a> </li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul> -->
-  
-        
-      
-      </header>
-      <section>
-        parent
-        <div id="parent">
-          <div id="child1"></div>
-          <div id="child2"></div>
-        </div>
-      </section>
-      <section></section>
-      <footer></footer>
-    </div>
+
+       </section>
+       <footer></footer>
+     </div>
   </body>
 </html>
