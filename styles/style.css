@@ -1,0 +1,56 @@
+body {
+    margin: 0
+}
+
+#main-body {
+    border: 1px solid;
+}
+
+header {
+    background-color: grey;
+}
+
+#headerRow {
+    display: flex;
+}
+
+#title {
+    text-align: center;
+}
+
+#imgButtons {
+    width: 20%;
+}
+
+#imgButtons img{
+  width: 18%;
+}
+
+#headerInput {
+    width: 80%;
+    display: flex;
+}
+
+#headerInput input {
+    width: 80%;
+}
+
+#searchInput {
+    position: relative;
+    width: 100%;
+}
+
+#searchInput input {
+    width: 60%;
+    position: absolute;
+    margin: 0 10px;
+}
+
+#searchInput img {
+    width: 5%;
+    position: absolute;
+    margin: 0 10px;
+}
+
+
+
