@@ -5,8 +5,8 @@
 #window {
     margin: 0 auto; 
     border: 1px solid black;
-    width: 200px; 
-    height: 200px;
+    width: 125px; 
+    height: 125px;
 }
 
 #images {
@@ -15,18 +15,51 @@
 }
 
 #images img {
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: 125px;
     /* transform: translate(-200px,0px);
     transition-duration: 2s; */
-    animation: move 10s infinite;
+    animation: move 2s infinite;
 }
 
 @keyframes move {
-    from{
+    6.25%{
         transform: translateX(-0%)
     }
-    to {
+    12.5% {
+        transform: translateX(-100%)
+    }
+    18.75% {
+        transform: translateX(-200%)
+    }
+    25% {
         transform: translateX(-300%)
+    }
+    31.25% {
+        transform: translateX(-400%)
+    }
+    37.5% {
+        transform: translateX(-500%)
+    }
+    43.75% {
+        transform: translateX(-600%)
+    }
+    50% {
+        transform: translateX(-700%)
+    }
+    56.25% {
+        transform: translateX(-800%)
+    }
+    62.5% {
+        transform: translateX(-900%)
+    }
+    68.75% {
+        transform: translateX(-1000%)
+    }
+    75% {
+        transform: translateX(-1100%)
+    }
+    100% {
+        transform: translateX(-1200%)
     }
 }
