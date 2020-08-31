@@ -1,0 +1,94 @@
+header{
+    border: solid;
+    background: gray;
+    text-align: center;
+}
+
+#headertopic {
+align-content: center;
+
+}
+h4{
+    align-content: center;
+}
+
+
+#parent {
+
+  display: flex;
+  flex-direction: row;
+  /*justify-content: center;*/
+
+  flex-wrap: wrap;
+  gap: 20px 5px;
+  
+  }
+ 
+
+ 
+  .left{
+    display: flex;
+    justify-content: left;
+   
+   
+  }
+  .left{
+    position: relative;
+    width: 80px;
+}
+  .right{
+      display: flex;
+      justify-content: left;
+      
+  }
+
+  .right {
+    position: relative;
+    width: 80px;
+}
+  .cancel{
+    display: flex;
+   
+  }
+
+  .cancel {
+    position: relative;
+    width: 80px;}
+
+  .house{
+    display: flex;
+    justify-content: center;
+   
+  }
+  .house {
+    position: relative;
+    width: 80px;}
+
+.input{
+    display: flex;
+    justify-content: right;
+   
+}
+.input{
+    position: relative;
+    width: 80px;}
+
+.input1{
+    display: flex;
+    justify-content: right;
+   
+}
+.input1 {
+    position: relative;
+    width: 80px;
+}
+.search{
+    display: flex;
+    justify-content: right;
+   
+}
+.search {
+    position: absolute;
+    width: 30px;
+}
+  

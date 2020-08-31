@@ -1,23 +1,18 @@
-a {
-    text-decoration: none;
+body
+{
+   border: solid; 
+   background-origin: padding-box;
+   margin: 2rem;
+  /*padding: 1rem;*/
 }
-
 a img {
     width: 50px;
 }
-
-/* input{
-
-    top: 3px;
-    left: 24px;
-    width: 200px;
-} */
-
-#text1{
-    width: 150px;
-    height: 30px;
-    margin: 0 10px;
+h4{
+    position: relative;
+    
 }
+
 
 #search {
     position: absolute;
@@ -25,25 +20,3 @@ a img {
 }
 
 
-h1{
-    margin-top: 20px ;
-    margin-left: 300px;
-}
-/* text{
-    margin-top: 50px ;
-    margin-left: 300px;
-} */
-footer{
-    font-size: 20px;
-    width: 50px;
-}
-
-.mystyle{
-    color: blueviolet;
-    float: center;
-
-}
-.special{
-    color: pink;
-
-}
