@@ -34,7 +34,7 @@ h4{
   }
   .left{
     position: relative;
-    width: 80px;
+    width: 50px;
 }
   .right{
       display: flex;
@@ -44,7 +44,7 @@ h4{
 
   .right {
     position: relative;
-    width: 80px;
+    width: 50px;
 }
   .cancel{
     display: flex;
@@ -62,7 +62,7 @@ h4{
   }
   .house {
     position: relative;
-    width: 80px;}
+    width: 220px;}
 
 .input{
     display: flex;
@@ -71,21 +71,22 @@ h4{
 }
 .input{
     position: relative;
-    width: 80px;}
+    width: 600px;}
 
 .input1{
     display: flex;
     justify-content: right;
+    border-radius: 200px
    
 }
 .input1 {
     position: relative;
-    width: 80px;
+    width: 220px;
+    
 }
 .search{
     display: flex;
     justify-content: right;
-   
 }
 .search {
     position: absolute;
